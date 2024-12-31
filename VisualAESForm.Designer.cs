@@ -114,6 +114,7 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Name = "VisualAESForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Visual AES";
             ResumeLayout(false);
             PerformLayout();
