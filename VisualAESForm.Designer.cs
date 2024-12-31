@@ -31,7 +31,7 @@
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             button1 = new Button();
-            button2 = new Button();
+            btnExit = new Button();
             SuspendLayout();
             // 
             // textBox1
@@ -57,21 +57,23 @@
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnExit
             // 
-            button2.Location = new Point(882, 631);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 3;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            btnExit.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnExit.Location = new Point(882, 631);
+            btnExit.Name = "btnExit";
+            btnExit.Size = new Size(75, 23);
+            btnExit.TabIndex = 3;
+            btnExit.Text = "Exit";
+            btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += btnExit_Click;
             // 
             // VisualAESForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(969, 666);
-            Controls.Add(button2);
+            Controls.Add(btnExit);
             Controls.Add(button1);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
@@ -86,6 +88,6 @@
         private TextBox textBox1;
         private TextBox textBox2;
         private Button button1;
-        private Button button2;
+        private Button btnExit;
     }
 }
