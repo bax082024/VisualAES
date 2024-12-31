@@ -1,8 +1,8 @@
 namespace VisualAES
 {
-    public partial class Form1 : Form
+    public partial class VisualAESForm : Form
     {
-        public Form1()
+        public VisualAESForm()
         {
             InitializeComponent();
         }
