@@ -30,6 +30,8 @@
         {
             textBox1 = new TextBox();
             textBox2 = new TextBox();
+            button1 = new Button();
+            button2 = new Button();
             SuspendLayout();
             // 
             // textBox1
@@ -46,11 +48,31 @@
             textBox2.Size = new Size(100, 23);
             textBox2.TabIndex = 1;
             // 
+            // button1
+            // 
+            button1.Location = new Point(290, 292);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 2;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(882, 631);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 3;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            // 
             // VisualAESForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(969, 666);
+            Controls.Add(button2);
+            Controls.Add(button1);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Name = "VisualAESForm";
@@ -63,5 +85,7 @@
 
         private TextBox textBox1;
         private TextBox textBox2;
+        private Button button1;
+        private Button button2;
     }
 }
