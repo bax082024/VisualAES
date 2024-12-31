@@ -59,13 +59,15 @@
             // 
             // btnExit
             // 
+            btnExit.BackColor = Color.Silver;
+            btnExit.FlatStyle = FlatStyle.Popup;
             btnExit.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnExit.Location = new Point(882, 631);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(75, 23);
             btnExit.TabIndex = 3;
             btnExit.Text = "Exit";
-            btnExit.UseVisualStyleBackColor = true;
+            btnExit.UseVisualStyleBackColor = false;
             btnExit.Click += btnExit_Click;
             // 
             // VisualAESForm
