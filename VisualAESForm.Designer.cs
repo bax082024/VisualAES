@@ -28,28 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            txtPlainText = new TextBox();
+            txtKey = new TextBox();
             button1 = new Button();
             btnExit = new Button();
             label1 = new Label();
-            label2 = new Label();
             lblTitle = new Label();
+            label2 = new Label();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
-            // textBox1
+            // txtPlainText
             // 
-            textBox1.Location = new Point(137, 165);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(158, 23);
-            textBox1.TabIndex = 0;
+            txtPlainText.Location = new Point(137, 165);
+            txtPlainText.Name = "txtPlainText";
+            txtPlainText.Size = new Size(158, 23);
+            txtPlainText.TabIndex = 0;
             // 
-            // textBox2
+            // txtKey
             // 
-            textBox2.Location = new Point(137, 221);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(159, 23);
-            textBox2.TabIndex = 1;
+            txtKey.Location = new Point(137, 221);
+            txtKey.Name = "txtKey";
+            txtKey.Size = new Size(159, 23);
+            txtKey.TabIndex = 1;
             // 
             // button1
             // 
@@ -76,20 +77,12 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(50, 162);
+            label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(192, 145);
             label1.Name = "label1";
-            label1.Size = new Size(38, 15);
+            label1.Size = new Size(42, 17);
             label1.TabIndex = 4;
-            label1.Text = "label1";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(50, 224);
-            label2.Name = "label2";
-            label2.Size = new Size(38, 15);
-            label2.TabIndex = 5;
-            label2.Text = "label2";
+            label1.Text = "Text :";
             // 
             // lblTitle
             // 
@@ -101,18 +94,36 @@
             lblTitle.TabIndex = 6;
             lblTitle.Text = "Visual AES";
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(204, 201);
+            label2.Name = "label2";
+            label2.Size = new Size(42, 17);
+            label2.TabIndex = 7;
+            label2.Text = "Key : ";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(236, 312);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(100, 23);
+            textBox1.TabIndex = 8;
+            // 
             // VisualAESForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(573, 615);
-            Controls.Add(lblTitle);
+            Controls.Add(textBox1);
             Controls.Add(label2);
+            Controls.Add(lblTitle);
             Controls.Add(label1);
             Controls.Add(btnExit);
             Controls.Add(button1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtKey);
+            Controls.Add(txtPlainText);
             Name = "VisualAESForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Visual AES";
@@ -122,12 +133,13 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtPlainText;
+        private TextBox txtKey;
         private Button button1;
         private Button btnExit;
         private Label label1;
-        private Label label2;
         private Label lblTitle;
+        private Label label2;
+        private TextBox textBox1;
     }
 }
