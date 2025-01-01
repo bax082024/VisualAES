@@ -62,9 +62,8 @@ namespace VisualAES
         {
             using (Aes aes = Aes.Create())
             {
-                // Convert key and IV to byte arrays
-                aes.Key = Encoding.UTF8.GetBytes(key.PadRight(32).Substring(0, 32)); // Ensure key is 32 bytes
-                aes.IV = new byte[16]; // Default IV (all zeros for simplicity)
+                aes.Key = Encoding.UTF8.GetBytes(key.PadRight(32).Substring(0, 32));
+                aes.IV = new byte[16];
 
                 using (ICryptoTransform encryptor = aes.CreateEncryptor(aes.Key, aes.IV))
                 {
@@ -79,9 +78,8 @@ namespace VisualAES
         {
             using (Aes aes = Aes.Create())
             {
-                // Convert key and IV to byte arrays
-                aes.Key = Encoding.UTF8.GetBytes(key.PadRight(32).Substring(0, 32)); // Ensure key is 32 bytes
-                aes.IV = new byte[16]; // Default IV (all zeros for simplicity)
+                aes.Key = Encoding.UTF8.GetBytes(key.PadRight(32).Substring(0, 32));
+                aes.IV = new byte[16];
 
                 using (ICryptoTransform decryptor = aes.CreateDecryptor(aes.Key, aes.IV))
                 {

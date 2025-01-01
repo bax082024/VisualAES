@@ -59,3 +59,8 @@ The AES encryption and decryption processes follow these steps:
 
 ---
 
+### Contact
+
+For questions or feedback, please contact:
+	- **bax082024@gmail.com**
+
