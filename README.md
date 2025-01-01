@@ -14,3 +14,12 @@ This tool is designed to help users understand and interact with encryption in a
 ---
 
 ![Program](app.png)
+
+---
+
+### Prerequisites
+- Windows Operating System
+- **Visual Studio 2022** or later
+- .NET 8
+
+---
