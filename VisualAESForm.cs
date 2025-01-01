@@ -18,7 +18,23 @@ namespace VisualAES
 
         private void btnEncrypt_Click(object sender, EventArgs e)
         {
+            string plainText = txtPlainText.Text;
+            string key = txtKey.Text;
 
+            if (string.IsNullOrWhiteSpace(plainText) || string.IsNullOrWhiteSpace(key))
+            {
+                MessageBox.Show("Please enter both the plain text and the key.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            try
+            {
+                txtEncryptedText.Text = EncryptText(plainText, key);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}", "Encryption Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnDecrypt_Click(object sender, EventArgs e)
