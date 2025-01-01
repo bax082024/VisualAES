@@ -56,13 +56,15 @@
             // 
             // btnEncrypt
             // 
+            btnEncrypt.BackColor = Color.LightGreen;
+            btnEncrypt.FlatStyle = FlatStyle.Popup;
             btnEncrypt.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnEncrypt.Location = new Point(39, 279);
+            btnEncrypt.Location = new Point(45, 278);
             btnEncrypt.Name = "btnEncrypt";
             btnEncrypt.Size = new Size(96, 35);
             btnEncrypt.TabIndex = 2;
             btnEncrypt.Text = "Encrypt";
-            btnEncrypt.UseVisualStyleBackColor = true;
+            btnEncrypt.UseVisualStyleBackColor = false;
             // 
             // btnExit
             // 
@@ -128,7 +130,7 @@
             // btnDecrypt
             // 
             btnDecrypt.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnDecrypt.Location = new Point(158, 279);
+            btnDecrypt.Location = new Point(164, 278);
             btnDecrypt.Name = "btnDecrypt";
             btnDecrypt.Size = new Size(96, 35);
             btnDecrypt.TabIndex = 10;
