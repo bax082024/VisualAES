@@ -37,7 +37,7 @@
             label2 = new Label();
             txtEncryptedText = new TextBox();
             label3 = new Label();
-            button1 = new Button();
+            btnDecrypt = new Button();
             SuspendLayout();
             // 
             // txtPlainText
@@ -125,22 +125,22 @@
             label3.TabIndex = 9;
             label3.Text = "Encrypted Text : ";
             // 
-            // button1
+            // btnDecrypt
             // 
-            button1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(218, 331);
-            button1.Name = "button1";
-            button1.Size = new Size(96, 35);
-            button1.TabIndex = 10;
-            button1.Text = "Encrypt";
-            button1.UseVisualStyleBackColor = true;
+            btnDecrypt.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDecrypt.Location = new Point(218, 331);
+            btnDecrypt.Name = "btnDecrypt";
+            btnDecrypt.Size = new Size(96, 35);
+            btnDecrypt.TabIndex = 10;
+            btnDecrypt.Text = "Decrypt";
+            btnDecrypt.UseVisualStyleBackColor = true;
             // 
             // VisualAESForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(573, 615);
-            Controls.Add(button1);
+            Controls.Add(btnDecrypt);
             Controls.Add(label3);
             Controls.Add(txtEncryptedText);
             Controls.Add(label2);
@@ -168,6 +168,6 @@
         private Label label2;
         private TextBox txtEncryptedText;
         private Label label3;
-        private Button button1;
+        private Button btnDecrypt;
     }
 }
