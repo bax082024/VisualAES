@@ -42,14 +42,16 @@
             // 
             // txtPlainText
             // 
-            txtPlainText.Location = new Point(77, 113);
+            txtPlainText.BackColor = SystemColors.Info;
+            txtPlainText.Location = new Point(287, 172);
             txtPlainText.Name = "txtPlainText";
             txtPlainText.Size = new Size(158, 23);
             txtPlainText.TabIndex = 0;
             // 
             // txtKey
             // 
-            txtKey.Location = new Point(77, 169);
+            txtKey.BackColor = SystemColors.Info;
+            txtKey.Location = new Point(286, 232);
             txtKey.Name = "txtKey";
             txtKey.Size = new Size(159, 23);
             txtKey.TabIndex = 1;
@@ -59,21 +61,22 @@
             btnEncrypt.BackColor = Color.LightGreen;
             btnEncrypt.FlatStyle = FlatStyle.Popup;
             btnEncrypt.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnEncrypt.Location = new Point(45, 278);
+            btnEncrypt.Location = new Point(256, 351);
             btnEncrypt.Name = "btnEncrypt";
             btnEncrypt.Size = new Size(96, 35);
             btnEncrypt.TabIndex = 2;
             btnEncrypt.Text = "Encrypt";
             btnEncrypt.UseVisualStyleBackColor = false;
+            btnEncrypt.Click += btnEncrypt_Click;
             // 
             // btnExit
             // 
             btnExit.BackColor = Color.Silver;
             btnExit.FlatStyle = FlatStyle.Popup;
             btnExit.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnExit.Location = new Point(179, 358);
+            btnExit.Location = new Point(678, 508);
             btnExit.Name = "btnExit";
-            btnExit.Size = new Size(75, 23);
+            btnExit.Size = new Size(80, 30);
             btnExit.TabIndex = 3;
             btnExit.Text = "Exit";
             btnExit.UseVisualStyleBackColor = false;
@@ -83,7 +86,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(132, 93);
+            label1.Location = new Point(342, 152);
             label1.Name = "label1";
             label1.Size = new Size(42, 17);
             label1.TabIndex = 4;
@@ -93,7 +96,7 @@
             // 
             lblTitle.AutoSize = true;
             lblTitle.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTitle.Location = new Point(56, 9);
+            lblTitle.Location = new Point(267, 27);
             lblTitle.Name = "lblTitle";
             lblTitle.Size = new Size(204, 50);
             lblTitle.TabIndex = 6;
@@ -103,7 +106,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(132, 149);
+            label2.Location = new Point(341, 212);
             label2.Name = "label2";
             label2.Size = new Size(42, 17);
             label2.TabIndex = 7;
@@ -111,7 +114,8 @@
             // 
             // txtEncryptedText
             // 
-            txtEncryptedText.Location = new Point(77, 222);
+            txtEncryptedText.BackColor = SystemColors.Info;
+            txtEncryptedText.Location = new Point(285, 291);
             txtEncryptedText.Name = "txtEncryptedText";
             txtEncryptedText.ReadOnly = true;
             txtEncryptedText.Size = new Size(158, 23);
@@ -121,7 +125,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(102, 202);
+            label3.Location = new Point(310, 271);
             label3.Name = "label3";
             label3.Size = new Size(112, 17);
             label3.TabIndex = 9;
@@ -132,19 +136,20 @@
             btnDecrypt.BackColor = Color.LightBlue;
             btnDecrypt.FlatStyle = FlatStyle.Popup;
             btnDecrypt.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnDecrypt.Location = new Point(164, 278);
+            btnDecrypt.Location = new Point(375, 351);
             btnDecrypt.Name = "btnDecrypt";
             btnDecrypt.Size = new Size(96, 35);
             btnDecrypt.TabIndex = 10;
             btnDecrypt.Text = "Decrypt";
             btnDecrypt.UseVisualStyleBackColor = false;
+            btnDecrypt.Click += btnDecrypt_Click;
             // 
             // VisualAESForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Olive;
-            ClientSize = new Size(314, 443);
+            ClientSize = new Size(784, 561);
             Controls.Add(btnDecrypt);
             Controls.Add(label3);
             Controls.Add(txtEncryptedText);
