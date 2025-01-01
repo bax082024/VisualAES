@@ -100,10 +100,11 @@
             // lblTitle
             // 
             lblTitle.AutoSize = true;
-            lblTitle.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTitle.Location = new Point(99, 9);
+            lblTitle.Font = new Font("Impact", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTitle.ForeColor = Color.Maroon;
+            lblTitle.Location = new Point(119, 9);
             lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(264, 65);
+            lblTitle.Size = new Size(234, 60);
             lblTitle.TabIndex = 6;
             lblTitle.Text = "Visual AES";
             // 
