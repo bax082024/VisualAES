@@ -30,13 +30,14 @@
         {
             txtPlainText = new TextBox();
             txtKey = new TextBox();
-            button1 = new Button();
+            btnEncrypt = new Button();
             btnExit = new Button();
             label1 = new Label();
             lblTitle = new Label();
             label2 = new Label();
             txtEncryptedText = new TextBox();
             label3 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // txtPlainText
@@ -53,14 +54,15 @@
             txtKey.Size = new Size(159, 23);
             txtKey.TabIndex = 1;
             // 
-            // button1
+            // btnEncrypt
             // 
-            button1.Location = new Point(97, 440);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 2;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnEncrypt.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnEncrypt.Location = new Point(99, 331);
+            btnEncrypt.Name = "btnEncrypt";
+            btnEncrypt.Size = new Size(96, 35);
+            btnEncrypt.TabIndex = 2;
+            btnEncrypt.Text = "Encrypt";
+            btnEncrypt.UseVisualStyleBackColor = true;
             // 
             // btnExit
             // 
@@ -123,18 +125,29 @@
             label3.TabIndex = 9;
             label3.Text = "Encrypted Text : ";
             // 
+            // button1
+            // 
+            button1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Location = new Point(218, 331);
+            button1.Name = "button1";
+            button1.Size = new Size(96, 35);
+            button1.TabIndex = 10;
+            button1.Text = "Encrypt";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // VisualAESForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(573, 615);
+            Controls.Add(button1);
             Controls.Add(label3);
             Controls.Add(txtEncryptedText);
             Controls.Add(label2);
             Controls.Add(lblTitle);
             Controls.Add(label1);
             Controls.Add(btnExit);
-            Controls.Add(button1);
+            Controls.Add(btnEncrypt);
             Controls.Add(txtKey);
             Controls.Add(txtPlainText);
             Name = "VisualAESForm";
@@ -148,12 +161,13 @@
 
         private TextBox txtPlainText;
         private TextBox txtKey;
-        private Button button1;
+        private Button btnEncrypt;
         private Button btnExit;
         private Label label1;
         private Label lblTitle;
         private Label label2;
         private TextBox txtEncryptedText;
         private Label label3;
+        private Button button1;
     }
 }
