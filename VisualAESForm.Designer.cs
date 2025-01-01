@@ -123,7 +123,6 @@
             txtEncryptedText.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txtEncryptedText.Location = new Point(130, 272);
             txtEncryptedText.Name = "txtEncryptedText";
-            txtEncryptedText.ReadOnly = true;
             txtEncryptedText.Size = new Size(196, 29);
             txtEncryptedText.TabIndex = 8;
             // 
