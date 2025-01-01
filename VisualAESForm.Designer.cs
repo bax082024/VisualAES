@@ -79,7 +79,7 @@
             btnExit.BackColor = Color.Silver;
             btnExit.FlatStyle = FlatStyle.Popup;
             btnExit.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnExit.Location = new Point(366, 444);
+            btnExit.Location = new Point(371, 427);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(80, 30);
             btnExit.TabIndex = 3;
@@ -90,30 +90,30 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold);
             label1.Location = new Point(204, 97);
             label1.Name = "label1";
-            label1.Size = new Size(42, 17);
+            label1.Size = new Size(47, 20);
             label1.TabIndex = 4;
             label1.Text = "Text :";
             // 
             // lblTitle
             // 
             lblTitle.AutoSize = true;
-            lblTitle.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTitle.Location = new Point(130, 27);
+            lblTitle.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTitle.Location = new Point(99, 9);
             lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(204, 50);
+            lblTitle.Size = new Size(264, 65);
             lblTitle.TabIndex = 6;
             lblTitle.Text = "Visual AES";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold);
             label2.Location = new Point(204, 167);
             label2.Name = "label2";
-            label2.Size = new Size(42, 17);
+            label2.Size = new Size(47, 20);
             label2.TabIndex = 7;
             label2.Text = "Key : ";
             // 
@@ -130,10 +130,10 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold);
             label3.Location = new Point(172, 241);
             label3.Name = "label3";
-            label3.Size = new Size(112, 17);
+            label3.Size = new Size(126, 20);
             label3.TabIndex = 9;
             label3.Text = "Encrypted Text : ";
             // 

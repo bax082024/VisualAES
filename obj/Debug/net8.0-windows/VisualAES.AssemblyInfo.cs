@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VisualAES")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0035ed94cf41e289b94c615e99efa59306bef7d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ed4223a38a2d80a60e9aff94e7bdb90afec8bb2")]
 [assembly: System.Reflection.AssemblyProductAttribute("VisualAES")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VisualAES")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
