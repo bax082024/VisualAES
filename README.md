@@ -48,3 +48,14 @@ This tool is designed to help users understand and interact with encryption in a
 
 ---
 
+### How It Works
+
+**AES Algorithm**
+
+The AES encryption and decryption processes follow these steps:
+- **Key & IV:** The key and IV (Initialization Vector) are used to secure the data. The key is user-provided, while the IV is set to all zeros for simplicity.
+- **Encryption:** Text is encrypted using the AES algorithm and converted to Base64 for easy storage or sharing.
+- **Decryption:** Encrypted Base64 text is decoded and decrypted using the same key and IV.
+
+---
+
