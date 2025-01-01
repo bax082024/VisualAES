@@ -33,7 +33,7 @@ This tool is designed to help users understand and interact with encryption in a
 
 ---
 
-### Use
+### How to Use
 
 1. **Encrypt Text:**
 	- Enter your **Plain Text** into the input box.
