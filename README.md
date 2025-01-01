@@ -32,3 +32,19 @@ This tool is designed to help users understand and interact with encryption in a
 3. **Rebuild Project** and run.
 
 ---
+
+### Use
+
+1. **Encrypt Text:**
+	- Enter your **Plain Text** into the input box.
+	- Provide a secure **Key** (must be at least 16 characters for AES-128, 32 for AES-256).
+	- Click the **Encrypt** button to generate the encrypted text.
+	- Copy the encrypted text from the `Encrypted Text` box.
+
+2. **Decrypt Text:**
+	- Paste the encrypted text into the `Encrypted Text` box.
+	- Provide the same **Key** used during encryption.
+	- Click the **Decrypt** button to retrieve the original plain text.
+
+---
+
