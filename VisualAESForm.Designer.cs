@@ -129,13 +129,15 @@
             // 
             // btnDecrypt
             // 
+            btnDecrypt.BackColor = Color.LightBlue;
+            btnDecrypt.FlatStyle = FlatStyle.Popup;
             btnDecrypt.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDecrypt.Location = new Point(164, 278);
             btnDecrypt.Name = "btnDecrypt";
             btnDecrypt.Size = new Size(96, 35);
             btnDecrypt.TabIndex = 10;
             btnDecrypt.Text = "Decrypt";
-            btnDecrypt.UseVisualStyleBackColor = true;
+            btnDecrypt.UseVisualStyleBackColor = false;
             // 
             // VisualAESForm
             // 
