@@ -35,7 +35,8 @@
             label1 = new Label();
             lblTitle = new Label();
             label2 = new Label();
-            textBox1 = new TextBox();
+            txtEncryptedText = new TextBox();
+            label3 = new Label();
             SuspendLayout();
             // 
             // txtPlainText
@@ -104,19 +105,31 @@
             label2.TabIndex = 7;
             label2.Text = "Key : ";
             // 
-            // textBox1
+            // txtEncryptedText
             // 
-            textBox1.Location = new Point(236, 312);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 8;
+            txtEncryptedText.Location = new Point(137, 274);
+            txtEncryptedText.Name = "txtEncryptedText";
+            txtEncryptedText.ReadOnly = true;
+            txtEncryptedText.Size = new Size(158, 23);
+            txtEncryptedText.TabIndex = 8;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(162, 254);
+            label3.Name = "label3";
+            label3.Size = new Size(112, 17);
+            label3.TabIndex = 9;
+            label3.Text = "Encrypted Text : ";
             // 
             // VisualAESForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(573, 615);
-            Controls.Add(textBox1);
+            Controls.Add(label3);
+            Controls.Add(txtEncryptedText);
             Controls.Add(label2);
             Controls.Add(lblTitle);
             Controls.Add(label1);
@@ -140,6 +153,7 @@
         private Label label1;
         private Label lblTitle;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox txtEncryptedText;
+        private Label label3;
     }
 }
