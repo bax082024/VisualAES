@@ -43,6 +43,24 @@ namespace VisualAES
             }
         }
 
+        private string DecryptText(string encryptedText, string key)
+        {
+            using (Aes aes = Aes.Create())
+            {
+                // Convert key and IV to byte arrays
+                aes.Key = Encoding.UTF8.GetBytes(key.PadRight(32).Substring(0, 32)); // Ensure key is 32 bytes
+                aes.IV = new byte[16]; // Default IV (all zeros for simplicity)
+
+                using (ICryptoTransform decryptor = aes.CreateDecryptor(aes.Key, aes.IV))
+                {
+                    byte[] encryptedBytes = Convert.FromBase64String(encryptedText);
+                    byte[] plainBytes = decryptor.TransformFinalBlock(encryptedBytes, 0, encryptedBytes.Length);
+                    return Encoding.UTF8.GetString(plainBytes);
+                }
+            }
+        }
+
+
 
 
 
