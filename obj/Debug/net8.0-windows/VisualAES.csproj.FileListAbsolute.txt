@@ -3,7 +3,6 @@ C:\HjemmeKode\C-Sharp\MyProjects\VisualAES\bin\Debug\net8.0-windows\VisualAES.de
 C:\HjemmeKode\C-Sharp\MyProjects\VisualAES\bin\Debug\net8.0-windows\VisualAES.runtimeconfig.json
 C:\HjemmeKode\C-Sharp\MyProjects\VisualAES\bin\Debug\net8.0-windows\VisualAES.dll
 C:\HjemmeKode\C-Sharp\MyProjects\VisualAES\bin\Debug\net8.0-windows\VisualAES.pdb
-C:\HjemmeKode\C-Sharp\MyProjects\VisualAES\obj\Debug\net8.0-windows\VisualAES.Form1.resources
 C:\HjemmeKode\C-Sharp\MyProjects\VisualAES\obj\Debug\net8.0-windows\VisualAES.csproj.GenerateResource.cache
 C:\HjemmeKode\C-Sharp\MyProjects\VisualAES\obj\Debug\net8.0-windows\VisualAES.GeneratedMSBuildEditorConfig.editorconfig
 C:\HjemmeKode\C-Sharp\MyProjects\VisualAES\obj\Debug\net8.0-windows\VisualAES.AssemblyInfoInputs.cache
@@ -15,3 +14,4 @@ C:\HjemmeKode\C-Sharp\MyProjects\VisualAES\obj\Debug\net8.0-windows\refint\Visua
 C:\HjemmeKode\C-Sharp\MyProjects\VisualAES\obj\Debug\net8.0-windows\VisualAES.pdb
 C:\HjemmeKode\C-Sharp\MyProjects\VisualAES\obj\Debug\net8.0-windows\VisualAES.genruntimeconfig.cache
 C:\HjemmeKode\C-Sharp\MyProjects\VisualAES\obj\Debug\net8.0-windows\ref\VisualAES.dll
+C:\HjemmeKode\C-Sharp\MyProjects\VisualAES\obj\Debug\net8.0-windows\VisualAES.VisualAESForm.resources
