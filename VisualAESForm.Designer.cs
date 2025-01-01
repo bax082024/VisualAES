@@ -43,17 +43,19 @@
             // txtPlainText
             // 
             txtPlainText.BackColor = SystemColors.Info;
-            txtPlainText.Location = new Point(150, 172);
+            txtPlainText.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtPlainText.Location = new Point(130, 126);
             txtPlainText.Name = "txtPlainText";
-            txtPlainText.Size = new Size(158, 23);
+            txtPlainText.Size = new Size(196, 29);
             txtPlainText.TabIndex = 0;
             // 
             // txtKey
             // 
             txtKey.BackColor = SystemColors.Info;
-            txtKey.Location = new Point(149, 232);
+            txtKey.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtKey.Location = new Point(130, 199);
             txtKey.Name = "txtKey";
-            txtKey.Size = new Size(159, 23);
+            txtKey.Size = new Size(196, 29);
             txtKey.TabIndex = 1;
             // 
             // btnEncrypt
@@ -86,7 +88,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(205, 152);
+            label1.Location = new Point(204, 97);
             label1.Name = "label1";
             label1.Size = new Size(42, 17);
             label1.TabIndex = 4;
@@ -106,7 +108,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(204, 212);
+            label2.Location = new Point(204, 167);
             label2.Name = "label2";
             label2.Size = new Size(42, 17);
             label2.TabIndex = 7;
@@ -115,17 +117,18 @@
             // txtEncryptedText
             // 
             txtEncryptedText.BackColor = SystemColors.Info;
-            txtEncryptedText.Location = new Point(148, 291);
+            txtEncryptedText.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtEncryptedText.Location = new Point(130, 272);
             txtEncryptedText.Name = "txtEncryptedText";
             txtEncryptedText.ReadOnly = true;
-            txtEncryptedText.Size = new Size(158, 23);
+            txtEncryptedText.Size = new Size(196, 29);
             txtEncryptedText.TabIndex = 8;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(173, 271);
+            label3.Location = new Point(172, 241);
             label3.Name = "label3";
             label3.Size = new Size(112, 17);
             label3.TabIndex = 9;

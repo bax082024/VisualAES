@@ -12,3 +12,4 @@ This tool is designed to help users understand and interact with encryption in a
 - **Error Handling**: Validates user input and provides clear error messages for invalid keys or inputs.
 
 ---
+
