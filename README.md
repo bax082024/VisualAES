@@ -23,3 +23,12 @@ This tool is designed to help users understand and interact with encryption in a
 - .NET 8
 
 ---
+
+### Installation
+
+1. **Clone repository:**
+	- **https://github.com/bax082024/VisualAES.git**
+2. Open the `VisualAES.sln` file in **Visual Studio**.
+3. **Rebuild Project** and run.
+
+---
