@@ -38,6 +38,9 @@
             txtEncryptedText = new TextBox();
             label3 = new Label();
             btnDecrypt = new Button();
+            statusStrip1 = new StatusStrip();
+            toolStripStatusLabel1 = new ToolStripStatusLabel();
+            statusStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // txtPlainText
@@ -147,12 +150,29 @@
             btnDecrypt.UseVisualStyleBackColor = false;
             btnDecrypt.Click += btnDecrypt_Click;
             // 
+            // statusStrip1
+            // 
+            statusStrip1.Items.AddRange(new ToolStripItem[] { toolStripStatusLabel1 });
+            statusStrip1.Location = new Point(0, 475);
+            statusStrip1.Name = "statusStrip1";
+            statusStrip1.Size = new Size(472, 22);
+            statusStrip1.TabIndex = 11;
+            statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            toolStripStatusLabel1.BackColor = Color.Transparent;
+            toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            toolStripStatusLabel1.Size = new Size(74, 17);
+            toolStripStatusLabel1.Text = "Bax Creation";
+            // 
             // VisualAESForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Olive;
             ClientSize = new Size(472, 497);
+            Controls.Add(statusStrip1);
             Controls.Add(btnDecrypt);
             Controls.Add(label3);
             Controls.Add(txtEncryptedText);
@@ -166,6 +186,8 @@
             Name = "VisualAESForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Visual AES";
+            statusStrip1.ResumeLayout(false);
+            statusStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -182,5 +204,7 @@
         private TextBox txtEncryptedText;
         private Label label3;
         private Button btnDecrypt;
+        private StatusStrip statusStrip1;
+        private ToolStripStatusLabel toolStripStatusLabel1;
     }
 }
